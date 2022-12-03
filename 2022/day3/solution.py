@@ -84,11 +84,6 @@ def solution2(lines):
 
 
 if __name__ == '__main__':
-    test_get_priority()
-    test_split_line()
-    test_binary_search()
-    test_solution1()
-    test_solution2()
     lines = read('input.txt')
     print(solution1(lines))
     print(solution2(lines))

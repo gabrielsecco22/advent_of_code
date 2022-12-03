@@ -45,12 +45,3 @@ class TestSolution:
         """
         assert solution2(["vJrwpWtwJgWrhcsFMMfFFhFp", "jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL", "PmmdzqPrVvPwwTWBwg"]) == 18
         assert solution2(["wMqvLMZHhHMvwLHjbvcjnnSBnvTQFn", "ttgJtRGJQctTZtZT", "CrZsJsPPZsGzwwsLwLmpwMDw"]) == 52
-
-# if __name__ == '__main__':
-    # unittest.main()
-#     test_binary_search()
-#     test_split_line()
-#     test_get_priority()
-#     test_solution1()
-#     test_solution2()
-#     print('All tests passed!')
