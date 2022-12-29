@@ -55,7 +55,6 @@ class Rope:
         If the knot(i) moves 2 positions afar from knot(i+1) then knot(i+1) moves to old knot(i) position
         Mark the last knot position as visited
         """
-        old_pos = self.knots[0]
         self.knots[0] = move(self.knots[0], direction, 1)
         for i in range(len(self.knots) - 1):
             if get_distance(self.knots[i], self.knots[i+1]) > 1:
@@ -67,6 +66,7 @@ class Rope:
     def move(self, direction, distance):
         for _ in range(distance):
             self.move_one(direction)
+
 
 def sim_rope(filename, knots):
     lines = read(filename)
