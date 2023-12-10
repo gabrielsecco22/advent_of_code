@@ -31,7 +31,7 @@ def get_move_vector(start_pos, end_pos):
     dy = y2 - y1
     # limit size for both dx and dy to 1
     if dx != 0:
-        dx = dx // abs(dx)
+        dx = dx // abs(dx) #(dx = 5)
     if dy != 0:
         dy = dy // abs(dy)
     return dx, dy
